@@ -30,11 +30,13 @@ Transform email drafts that contain mixed Chinese and English content into clear
 - Clear about what you need or are offering
 
 ## Process
-1. Read the mixed Chinese-English draft
-2. Understand the main message and purpose
-3. Rewrite in clear English following the requirements above
-4. Keep the original meaning but improve clarity
-5. Make sure the email sounds natural and professional
+1. Automatically git commit the current draft.md before making changes
+2. Read the mixed Chinese-English draft from draft.md
+3. Understand the main message and purpose
+4. Rewrite in clear English following the requirements above
+5. Keep the original meaning but improve clarity
+6. Make sure the email sounds natural and professional
+7. Save the improved version directly to draft.md
 
 ## Example Output Format
 - Start with appropriate greeting
@@ -47,9 +49,9 @@ When summarizing findings or presenting results, use this template:
 "We summarized our main findings as follows, please find attached workbook for more details. Feel free to contact us if you have any questions. Thanks!"
 
 ## Output Instructions
-- Save the final email draft to `/output/YYYY-MM-DD HHMMSS 一句短语总结.md`
-- Use current timestamp for filename (e.g., "2025-08-25 143022 Meeting follow-up.md")
-- Include a brief descriptive phrase in Chinese for the summary part
+- Work directly with draft.md file in the project root
+- Always git commit the original draft.md before making any changes
+- Edit draft.md in place with the improved English version
 - Present the result as ready-to-use email content in the conversation as well
 - Wait for user feedback and iterate as needed
 
