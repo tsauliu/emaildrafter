@@ -47,9 +47,10 @@ When summarizing findings or presenting results, use this template:
 "We summarized our main findings as follows, please find attached workbook for more details. Feel free to contact us if you have any questions. Thanks!"
 
 ## Output Instructions
-- Do NOT create any files
-- Provide the email draft directly in the conversation
-- Present the result as ready-to-use email content
+- Save the final email draft to `/output/YYYY-MM-DD HHMMSS 一句短语总结.md`
+- Use current timestamp for filename (e.g., "2025-08-25 143022 Meeting follow-up.md")
+- Include a brief descriptive phrase in Chinese for the summary part
+- Present the result as ready-to-use email content in the conversation as well
 - Wait for user feedback and iterate as needed
 
 ## Email Editing Guidelines
@@ -61,10 +62,19 @@ When proofreading or editing emails:
 - Maintain the user's original structure and intent
 - When user provides specific phrasing (e.g., "Furthermore, we gained access..."), use their exact wording
 - Avoid over-editing - focus on correctness rather than style changes
+- Fix grammar issues like "We are only been able" → "We have only been able" or "We have only collected"
+- When user prefers tentative language (e.g., "we could" vs "we will"), respect that choice
+- Capitalize proper punctuation after semicolons but keep the rest lowercase
 
 ## Common Patterns
 - For data/research emails: Start with completion status → summarize key findings → detailed points → closing
 - Use "This allows us to..." to explain benefits of new data/tools
 - Keep numbered points without ending periods if that's the user's preference
+- Use "so far" or "at this point" when describing current/partial data collection status
+- Use "as tracking continues" to indicate ongoing work
+- Simplify data source descriptions (e.g., "PSA data" instead of "PSA Pokemon eBay auction data")
+- Use format "and summarized our key findings as follows" when transitioning to findings
+- Omit semicolon before "please find" - write it as one flowing sentence
+- Keep branded terms consistent (e.g., "Pokémon" with accent if that's the standard)
 
 Remember: Simple, clear, and direct communication is always better than complex, fancy language.
