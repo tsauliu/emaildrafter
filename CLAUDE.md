@@ -4,9 +4,10 @@
 This folder is for English email editing only. No file changes or creation needed - chat only.
 
 ## Process
-1. Provide your email draft.
-2. Optionally include context that explains the audience, intent, or any constraints.
-3. If no context is provided, improve the email using the draft alone.
+1. You will provide two pieces of information:
+   - First: Your email draft
+   - Second: Context for the email
+2. If the second item is missing, continue editing using the draft alone.
 
 ## Writing Style
 - Simple
